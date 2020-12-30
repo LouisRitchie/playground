@@ -1,0 +1,31 @@
+{
+  "name": "webpack-express-playground",
+  "version": "0.1.1",
+  "description": "A playground for different webpack-dev-middleware configs, within an Express server",
+  "main": "index.js",
+  "repository": "https://github.com/louisritchie/playground",
+  "author": "Louis Ritchie",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.2.1",
+    "react-refresh": "^0.9.0",
+    "webpack": "^5.11.1",
+    "webpack-dev-middleware": "^4.0.2",
+    "webpack-hot-middleware": "^2.25.0"
+  }
+}
